@@ -1,0 +1,45 @@
+.text-underline {
+	border-bottom: 2px solid black;
+}
+
+.sub-title {
+	font-size: 20px;
+}
+
+
+/* SLIDER */
+.slider {
+	position: relative;
+}
+
+.slider-wrap {
+
+}
+
+.slick-arrow {
+	position: absolute;
+	top: 45%;
+	z-index: 10;
+	padding: 0;
+	font-size: 0px;
+	border: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.slick-next {
+	right: 5px;
+	background: url(../vectors/right.svg) center / 75% no-repeat, 
+							rgba(255, 255, 255, .45);
+}
+
+.slick-prev {
+	left: 5px;
+	background: url(../vectors/left.svg) center / 75% no-repeat,
+							rgba(255, 255, 255, .45);
+}
+
+.slick-slide {
+	margin: 0 10px;
+}
